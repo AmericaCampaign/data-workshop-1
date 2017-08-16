@@ -1,6 +1,6 @@
 /* global describe, expect, it */
 import DATA from '../DATA'
-import setActive from './setActive'
+import setActive from './setActive.test'
 
 describe('setActive', () => {
   it('is a function', () => expect(typeof setActive).toBe('function'))
